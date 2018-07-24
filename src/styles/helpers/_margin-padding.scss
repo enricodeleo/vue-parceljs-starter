@@ -1,0 +1,27 @@
+// loop that generates margin ad padding helper classes
+// the output is like .margin-5, .margin-top-5, margin-right-5 etc...
+$properties: (margin, padding);
+$sides: (top, right, bottom, left);
+@each $prop in $properties {
+  @for $i from 1 through 14 {
+    .#{$prop}-#{$i*5} {
+      #{$prop}: #{$i*5}px !important;
+    }
+    @each $side in $sides {
+      .#{$prop}-#{$side}-#{$i*5} {
+        #{$prop}-#{$side}: #{$i*5}px !important;
+      }
+    }
+  }
+}
+// the output is like .no-margin, .no-padding-top etc...
+@each $prop in $properties {
+  .no-#{$prop} {
+    #{$prop}: 0 !important;
+  }
+  @each $side in $sides {
+    .no-#{$prop}-#{$side} {
+      #{$prop}-#{$side}: 0 !important;
+    }
+  }
+}
