@@ -1,6 +1,6 @@
 <template>
   <v-layout>
-    <section class="hero is-large is-info home-bg-1">
+    <section class="hero is-fullheight is-info home-bg-1">
       <div class="hero-body">
         <div class="container">
           <h1 class="title is-1">
