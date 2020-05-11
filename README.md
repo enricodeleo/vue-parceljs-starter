@@ -62,7 +62,7 @@ yarn build
 
 Your built assets will be within the `./dist` directory.
 
-**You'll also find a visual report about bundles in `./report.html`**.
+**You'll also find a visual report about bundles in `./dist/report.html`**.
 
 ## Author
 [Enrico Deleo](https://enricodeleo.com)
