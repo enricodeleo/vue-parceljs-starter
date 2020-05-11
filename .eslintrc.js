@@ -27,6 +27,7 @@ module.exports = {
     }],
     'import/no-unresolved': [0, { commonjs: true, amd: true }],
     // allow debugger during development
-    'no-debugger': process.env.NODE_ENV === 'production' ? 2 : 0
-  }
+    'no-debugger': process.env.NODE_ENV === 'production' ? 2 : 0,
+    'max-len': [2, 140, 2, { "ignoreUrls": true }]
+  },
 };

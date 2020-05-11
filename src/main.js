@@ -37,7 +37,8 @@ import './styles/main.scss';
 import App from './App';
 import store from './store';
 
-Vue.config.productionTip = false;
+Vue.config.productionTip = process.env.NODE_ENV !== 'production';
+Vue.config.devtools = process.env.NODE_ENV !== 'production';
 
 /* eslint-disable no-new */
 new Vue({
