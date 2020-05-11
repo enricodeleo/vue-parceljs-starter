@@ -6,6 +6,7 @@ This is a batteries-included [Vue.js](https://vuejs.org/) starter kit (_boilerpl
 
 This starter includes some useful gears like:
 
+* modern ES support with Babel 7
 * code linting
 * images optimization
 * style vendor prefixing for some backward compatibility
