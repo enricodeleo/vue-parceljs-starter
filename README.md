@@ -70,9 +70,6 @@ Your built assets will be within the `./dist` directory.
 
 _Thanks to everyone having starred my repo! If you like this project, please consider your star_
 
-[![Stargazers repo roster for @enricodeleo/vue-parceljs-starter
-](https://reporoster.com/stars/enricodeleo/vue-parceljs-starter
-)](https://github.com/enricodeleo/vue-parceljs-starter
-/stargazers)
+[![Stargazers repo roster for @enricodeleo/vue-parceljs-starter](https://reporoster.com/stars/enricodeleo/vue-parceljs-starter)](https://github.com/enricodeleo/vue-parceljs-starter/stargazers)
 
 
